@@ -16,3 +16,10 @@ python manage.py runserver
 ~~~
 http://localhost:8000/graphql
 ~~~
+
+- Test with:
+~~~graphql
+query hello{
+  hello
+}
+~~~
